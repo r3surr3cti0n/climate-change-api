@@ -1,8 +1,7 @@
-const PORT = 8000;
+const PORT = 5500;
 const express = require("express");
 const axios = require("axios");
 const cheerio = require("cheerio");
-const { LOADIPHLPAPI } = require("dns");
 const app = express();
 
 const articles = [];
